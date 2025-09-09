@@ -1,0 +1,26 @@
+* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.login-container, .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-box, .content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.menu nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
